@@ -1,6 +1,10 @@
 bower_components/
-css/
-js/
+clientApp/public/css/*
+!clientApp/public/css/placeholder.md
+clietnApp/public/images/*
+!clientApp/public/images/placeholder.md
+clientApp/public/js/*
+!clientApp/public/js/README.md
 .cache/
 
 lib/
