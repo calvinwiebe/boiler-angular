@@ -1,0 +1,34 @@
+{
+  "name": "boiler-angular",
+  "version": "0.1.0",
+  "authors": [
+    "Calvin Wiebe <calvin.wiebe@gmail.com>"
+  ],
+  "description": "boilerplate dir structure for express + angular",
+  "main": "serverApp/lib/app.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "boilerplate",
+    "express",
+    "node",
+    "angular",
+    "webapp"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/calvinwiebe/boiler-angular",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "clientApp/public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.2",
+    "angular-route": "~1.3.2"
+  }
+}

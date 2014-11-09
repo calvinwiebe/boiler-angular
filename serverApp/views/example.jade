@@ -1,0 +1,9 @@
+doctype html
+html(lang="en", ng-app="exampleApp")
+    head
+        script(src="js/example.js")
+    body(ng-controller="exampleCtrl")
+        input(placeholder="type shit", ng-model="name")
+        div
+            | You said: {{name}}
+
